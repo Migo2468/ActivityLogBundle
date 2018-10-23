@@ -22,4 +22,5 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class LogEntry extends AbstractLogEntry
 {
+    protected $user;
 }
